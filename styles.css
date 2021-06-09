@@ -18,8 +18,7 @@ body {
     ". main ."
     "section section section"
     "footer footer footer";
-  /* justify-content: center; */
-  /* align-content: center; */
+ 
 }
 
 header {
@@ -53,8 +52,6 @@ ul {
 main {
   /* grid child */
   grid-area: main;
-  /* height: 640px; */
-  /* margin: 5px 0; */
   background-color: #aaa;
   padding: 15px;
   /* grid parent */
@@ -188,7 +185,6 @@ footer {
   font-size: 16px;
   justify-content: center;
   align-items: center;
-  /* align-content: center; */
 }
 footer > div {
   border: 1px solid white;
